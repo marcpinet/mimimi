@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.h5
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.wav
+*.mp3
+
+# Models and outputs
+checkpoints/
+models/
+runs/
+outputs/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Results and figures
+results/
+figures/
+*.png
+*.pdf
+*.jpg
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore secrets or environment files
+.env
+*.env
+
+# PyTorch specific
+*.pt
+*.pth
+
+data/dev*
