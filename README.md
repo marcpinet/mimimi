@@ -151,8 +151,8 @@ Complex multiplication follows the mathematical rule:
 $(a + bi) \times (c + di) = (ac - bd) + (ad + bc)i$
 
 Where:
-- $\text{real\_out} = \text{conv\_real}(\text{real}) - \text{conv\_imag}(\text{imag})$
-- $\text{imag\_out} = \text{conv\_real}(\text{imag}) + \text{conv\_imag}(\text{real})$
+- Real output: $conv_{real}(real) - conv_{imag}(imag)$
+- Imaginary output: $conv_{real}(imag) + conv_{imag}(real)$
 
 #### 2. Complex Batch Normalization
 

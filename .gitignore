@@ -52,7 +52,6 @@ outputs/
 # Results and figures
 results/
 figures/
-*.png
 *.pdf
 *.jpg
 
