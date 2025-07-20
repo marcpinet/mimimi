@@ -126,18 +126,20 @@ python main.py --mode evaluate
 ```txt
 mimimi/
 ├── src/
-│   ├── model.py              # Main complex anomaly detector
-│   ├── complex_layers.py     # Complex convolution, batch norm, PReLU
-│   ├── attention.py          # Channel attention mechanism
-│   ├── dataset.py            # MIMII dataset loader with complex STFT
-│   ├── train.py              # Training pipeline with mixup support
-│   ├── evaluate.py           # Comprehensive evaluation metrics
-│   ├── config.py             # Configuration parameters
-│   └── utils.py              # Utility functions (Youden threshold)
+│   ├── model/
+│   │   ├── __init__.py           # Model package initialization
+│   │   ├── model.py              # Main complex anomaly detector
+│   │   ├── complex_layers.py     # Complex convolution, batch norm, PReLU
+│   │   ├── attention.py          # Channel attention mechanism
+│   │   ├── dataset.py            # MIMII dataset loader with complex STFT
+│   │   ├── train.py              # Training pipeline with mixup support
+│   │   ├── evaluate.py           # Comprehensive evaluation metrics
+│   │   ├── config.py             # Configuration parameters
+│   │   └── utils.py              # Utility functions (Youden threshold)
+│   ├── main.py                   # Main entry point for training/evaluation
 ├── data/
 │   └── download_data.py      # Automated dataset download
 ├── models/                   # Saved models and metrics
-└── logs/                     # Training logs
 ```
 
 ## 🔬 Technical Implementation
